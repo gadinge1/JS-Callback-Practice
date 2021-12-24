@@ -57,7 +57,7 @@ function move(element) {
                 direction = null
             })
         }
-    
+    // helps move the character.
     return {
         to: moveToCoordinates,
         withArrowKeys: moveWithArrowKeys
